@@ -1,0 +1,83 @@
+/* Основные стили для body */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Стили для контейнера формы */
+  .container {
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Стили для заголовка формы */
+  h3 {
+    margin-bottom: 20px;
+    color: #343a40;
+  }
+  
+  /* Стили для группы формы */
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  /* Стили для меток */
+  label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  /* Стили для полей ввода */
+  .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  /* Стили для кнопки */
+  .btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Стили для блока с результатом */
+  .mt-3 {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  h5 {
+    color: #343a40;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #495057;
+  }
+  
